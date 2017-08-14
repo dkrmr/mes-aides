@@ -136,7 +136,7 @@ var helps = [
     },*/
     {
         'name': 'Revenu de Solidarité Active (RSA)',
-        'description': 'Le RSA est une aide qui prends le relai des indemnités chomage à la fin de la période de droit. Elle est versée sans limitation de durée aux personnes entrant dans ses conditions d\'attribution.',
+        'description': 'Le RSA est une aide qui prends le relai des indemnités chômage à la fin de la période de droit. Elle est versée sans limitation de durée aux personnes entrant dans ses conditions d\'attribution.',
         'simulator': '',
         'ask': 'https://www.formulaires.modernisation.gouv.fr/gf/cerfa_15481.do',
         'checks': [
@@ -173,7 +173,7 @@ var helps = [
     },
     {
         'name': 'Revenu de Solidarité Active (RSA) jeune',
-        'description': 'Le RSA est une aide qui prends le relai des indemnités chomage à la fin de la période de droit. Elle est versée sans limitation de durée aux personnes entrant dans ses conditions d\'attribution. Attention : dans le cadre des personnes de moins de 25 ans, cette aide ne peut être accordée que si vous avez travaillé de manière rémunérée durant les dernières années, ou si vous avez seul·e la charge d\'un enfant.',
+        'description': 'Le RSA est une aide qui prends le relai des indemnités chômage à la fin de la période de droit. Elle est versée sans limitation de durée aux personnes entrant dans ses conditions d\'attribution. Attention : dans le cadre des personnes de moins de 25 ans, cette aide ne peut être accordée que si vous avez travaillé de manière rémunérée durant les dernières années, ou si vous avez seul·e la charge d\'un enfant.',
         'simulator': '',
         'ask': 'https://www.formulaires.modernisation.gouv.fr/gf/cerfa_15481.do',
         'checks': [
@@ -232,7 +232,7 @@ var helps = [
     },
     {
         'name': 'Aide aux transports',
-        'description': 'L\'aide au transports est une aide versée durant les 3 premiers mois de votre reprise d\'emploi, qui vient vous indemniser pour vos trajets professionnels. Elle ne peut être versée que si votre nouveau lieu de travail se situe à plus de 60km de votre domicile.',
+        'description': 'L\'aide aux transports est une aide versée durant les 3 premiers mois de votre reprise d\'emploi, qui vient vous indemniser pour vos trajets professionnels. Elle ne peut être versée que si votre nouveau lieu de travail se situe à plus de 60km de votre domicile.',
         'simulator': '',
         'ask': '',
         'ask_text': 'La demande doit être faite à votre agence Pôle Emploi',
@@ -269,7 +269,7 @@ var helps = [
         ]
     },
     {
-        'name': 'Aide au premis de conduire',
+        'name': 'Aide au permis de conduire',
         'description': 'L\'aide au permis de conduire est un outil visant à vous permettre de financer le passage de votre permis afin de vous aider dans votre recherche d\'emploi.',
         'simulator': '',
         'ask': '',
@@ -289,7 +289,7 @@ var helps = [
     },
     {
         'name': 'Aide à la recherche du premier emploi',
-        'description': 'Si vous avez été diplômé·e depuis moins de 4 mois, que vous ne reprennez pas vos études, que vous êtes boursier·e et que vous ne touchez aucune autre aide (RSA, chômage, garantie jeune…) vous pouvez demander à bénéficier d\'une aide versée sur une durée de quatre mois pour vous accompagner dans la recherche d\'un emploi.',
+        'description': 'Si vous avez été diplômé·e depuis moins de 4 mois, que vous ne reprenez pas vos études, que vous êtes boursier·e et que vous ne touchez aucune autre aide (RSA, chômage, garantie jeune…) vous pouvez demander à bénéficier d\'une aide versée sur une durée de quatre mois pour vous accompagner dans la recherche d\'un emploi.',
         'simulator': '',
         'ask': 'https://www.messervices.etudiant.gouv.fr/envole/portal/index.php#tab/1',
         'checks': [
@@ -506,7 +506,7 @@ var helps = [
     },
     {
         'name': 'Allocation de soutien familial',
-        'description': 'L\'allocation de soutien familial est destinée aux personnes élevant seul·e·s un enfant de moins de 20 ans. Elle est versé sans condition de ressources.',
+        'description': 'L\'allocation de soutien familial est destinée aux personnes élevant seul·e·s un enfant de moins de 20 ans. Elle est versée sans condition de ressources.',
         'simulator': '',
         'ask': 'http://wwwd.caf.fr/pdfj/asf.pdf',
         'checks': [
@@ -766,7 +766,7 @@ var helps = [
     },
     {
         'name': 'Allocation aux Adultes Handicapé·e·s',
-        'description': 'L\'allocation aux adultes handicapé·e·s est une aide ayant pour but de compenser un handicap qui vous empêcherais de travailler. Son montant est dégressif en fonction des ressources, et elle n\'est versée qu\'après validation de la MDPH.',
+        'description': 'L\'allocation aux adultes handicapé·e·s est une aide ayant pour but de compenser un handicap qui vous empêcherait de travailler. Son montant est dégressif en fonction des ressources, et elle n\'est versée qu\'après validation de la MDPH.',
         'ask': 'Demande à faire à la MDPH de votre région',
         'checks': [
             {
@@ -888,7 +888,7 @@ var helps = [
     },
     {
         'name': 'Aide médicale d\'État',
-        'description': 'Dans le but de limiter l\'exclusion des personnes en situation irrégulière en France, l\'État a mis en place une aide disponible pour toute personne en situation irrégulière et pouvant justifier d\'au moins 3 mois de présence continue sur le territoire Français. Cette aide est soumise à des conditions de ressources.',
+        'description': 'Dans le but de limiter l\'exclusion des personnes en situation irrégulière en France, l\'État a mis en place une aide disponible pour toute personne en situation irrégulière et pouvant justifier d\'au moins 3 mois de présence continue sur le territoire français. Cette aide est soumise à des conditions de ressources.',
         'ask': 'http://www.ameli.fr/fileadmin/user_upload/formulaires/S3720.pdf',
         'checks': [
             {
@@ -960,7 +960,7 @@ var helps = [
     },
     {
         'name': 'Pension de réversion',
-        'description': 'La pension de réversion est une aide accordée aux personnes veuves de plus de 55 ans, qui leur permet de toucher une partie de la retraite qu\'aurais perçue leur ex-conjoint·e. Notez qu\'un remariage peut ne pas empêcher la pension de réversion.',
+        'description': 'La pension de réversion est une aide accordée aux personnes veuves de plus de 55 ans, qui leur permet de toucher une partie de la retraite qu\'aurait perçue leur ex-conjoint·e. Notez qu\'un remariage peut ne pas empêcher la pension de réversion.',
         'ask': "http://www.toutsurlaretraite.com/documents/formulaire_demande_retraite_reversion_S5136_cerfa.pdf",
         'checks': [
             {
@@ -1042,7 +1042,7 @@ var helps = [
     },
     {
         'name': 'Musées gratuits',
-        'description': 'Cette mesure vise à rendre la culture accessibles aux jeunes, dont la situation financière est souvent précaire. Il n\'y a pas de condition de ressources ou d\'études pour en bénéficier.',
+        'description': 'Cette mesure vise à rendre la culture accessible aux jeunes, dont la situation financière est souvent précaire. Il n\'y a pas de condition de ressources ou d\'études pour en bénéficier.',
         'ask_text': 'Contactez le musée qui vous intéresse pour vous renseigner',
         'checks': [
             {
@@ -1068,7 +1068,7 @@ var helps = [
     },
     {
         'name': 'Billet congé SNCF',
-        'description': 'Une fois par an, la SNCF vous donne droit à un billet aller-retour à prix réduits (réductions allant de -25% à -50%), pour un congé, avec certaines conditions sur le déplacements à réaliser. Ce billet peut inclure des accompagnants (en particuliers des éventuels enfants à charge)',
+        'description': 'Une fois par an, la SNCF vous donne droit à un billet aller-retour à prix réduits (réductions allant de -25% à -50%), pour un congé, avec certaines conditions sur le déplacement à réaliser. Ce billet peut inclure des accompagnants (en particuliers des éventuels enfants à charge)',
         'ask': 'https://www.aide-sociale.fr/wp-content/uploads/2017/02/demande-billet-annuel-44.pdf',
         'checks': [
             {
